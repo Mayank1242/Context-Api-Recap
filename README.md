@@ -1,10 +1,11 @@
-#Basic Login Form with Prop Drilling 🔐
+# Basic Login Form with Prop Drilling 🔐
+
 This repository contains a basic login form implemented using prop drilling in React. Prop drilling is a technique used to pass data from a parent component down to nested child components, even if some intermediate components do not directly use the data.
 
-Overview 📝
+# Overview 📝
 In this project, you'll find a simple React application where a parent component manages the state of the user login credentials. The login form component is a child component that receives the login state as props from the parent. Through prop drilling, the login form component can access and update the login state managed by the parent component.
 
-Features 🚀
+# Features 🚀
 Basic login form UI
 Prop drilling implementation to pass login state from parent to child components
 Handling user authentication
